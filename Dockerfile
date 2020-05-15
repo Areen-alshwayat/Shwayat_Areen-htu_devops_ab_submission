@@ -26,8 +26,8 @@ COPY htu-devops-konsul-web /app
 #RUN npm i fsevents
 #RUN npm install --build-from-source
 
-RUN echo && ls && npm install --global @gridsome/cli
-RUN echo && ls && yarn && npm run build && ls
+#RUN echo && ls && npm install --global @gridsome/cli
+#RUN echo && ls && yarn && npm run build && ls
 #RUN apk add --update nodejs npm
 #COPY . .
 
