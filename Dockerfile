@@ -5,8 +5,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY package.json /app/package.json
-
+COPY htu-devops-konsul-web/package.json  /app/package.json
 
 
 RUN  apk add --update nodejs && apk add --update nodejs-npm
