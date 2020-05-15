@@ -6,7 +6,7 @@ WORKDIR /app
 COPY htu-devops-konsul-web/package.json  /app/package.json
 #RUN npm install -g yarn
 RUN npm install --global @gridsome/cli
-
+pwd $$ ls
 RUN apk add --update --no-cache postgresql-client
 RUN apk add --update --no-cache --virtual .tmp-build-deps
 RUN  apk add --update nodejs && apk add --update nodejs-npm
