@@ -6,6 +6,13 @@ WORKDIR /app
 COPY htu-devops-konsul-web/package.json  /app/package.json
 #RUN npm install -g yarn
 RUN  apk add --update nodejs && apk add --update nodejs-npm
+RUN apk update && apk add yarn python g++ make && rm -rf /var/cache/apk/*
+RUN apk --no-cache --virtual build-dependencies add \
+    python \
+    make \
+    g++ \
+    && npm install \
+    && apk del build-dependencies
 
 COPY htu-devops-konsul-web /app
 #Run npm i sharp
