@@ -4,14 +4,15 @@ RUN mkdir /app
 WORKDIR /app
 
 COPY htu-devops-konsul-web/package.json  /app/package.json
+RUN npm install -g yarn
 RUN  apk add --update nodejs && apk add --update nodejs-npm
+
 COPY htu-devops-konsul-web /app
 
 RUN echo && ls && npm install --global @gridsome/cli
 #RUN apk add --update nodejs npm
-COPY . .
-RUN echo && ls && npm run build
-
+#COPY . .
+RUN echo && ls && yarn && npm run build && ls
 
 FROM nginx:1.15.7-alpine
 COPY --from=build /app/dist /usr/share/nginx/html
@@ -19,7 +20,7 @@ EXPOSE 80
 
 #CMD [ "node", "server.js" ]
 
-#CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
 
 
 
