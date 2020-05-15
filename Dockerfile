@@ -3,7 +3,7 @@ FROM node:14-alpine as build
 RUN mkdir /app
 WORKDIR /app
 
-COPY htu-devops-konsul-web/package.json  /app/package.jsonnpm i fsevents
+COPY htu-devops-konsul-web/package.json  /app/package.json
 #RUN npm install -g yarn
 RUN  apk add --update nodejs && apk add --update nodejs-npm
 
