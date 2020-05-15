@@ -7,6 +7,7 @@ COPY htu-devops-konsul-web/package.json  /app/package.json
 RUN  apk add --update nodejs && apk add --update nodejs-npm
 COPY htu-devops-konsul-web /app
 
+ls && 
 RUN npm install --global @gridsome/cli
 #RUN apk add --update nodejs npm
 COPY . .
