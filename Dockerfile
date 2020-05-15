@@ -4,10 +4,10 @@ RUN mkdir /app
 WORKDIR /app
 
 COPY htu-devops-konsul-web/package.json  /app/package.json
-
 RUN  apk add --update nodejs && apk add --update nodejs-npm
 COPY . /app
-RUN npm install
+npm install --global @gridsome/cli
+RUN apk add --update nodejs npm
 COPY . .
 RUN npm run build
 
