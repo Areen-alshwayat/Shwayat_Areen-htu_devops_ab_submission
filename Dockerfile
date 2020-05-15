@@ -10,7 +10,7 @@ COPY htu-devops-konsul-web /app
 RUN echo && ls && npm install --global @gridsome/cli
 #RUN apk add --update nodejs npm
 COPY . .
-RUN npm run build
+RUN echo && ls && npm run build
 
 
 FROM nginx:1.15.7-alpine
