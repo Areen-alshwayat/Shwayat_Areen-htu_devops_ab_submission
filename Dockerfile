@@ -12,10 +12,10 @@ COPY . .
 RUN npm run build
 
 
-FROM nginx:1.15.7-alpine
-COPY --from=build /app/dist /usr/share/nginx/html
+#FROM nginx:1.15.7-alpine
+#COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
 
 
 
