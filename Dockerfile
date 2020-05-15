@@ -12,10 +12,11 @@ RUN  apk add --update nodejs && apk add --update nodejs-npm
 
 COPY . /app
 
-#FROM nginx:1.15.7-alpine
-#COPY --from=build /app/dist /usr/share/nginx/html
+FROM nginx:1.15.7-alpine
+COPY --chown=node:node htu-devops-konsul-web/  /app
 
-CMD node index.js
+#COPY --from=build /app/dist /usr/share/nginx/html
+#CMD node index.js
 
 EXPOSE 80
-#CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
