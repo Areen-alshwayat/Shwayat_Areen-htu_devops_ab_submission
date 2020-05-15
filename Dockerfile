@@ -3,13 +3,14 @@ FROM node:14-alpine as build
 RUN mkdir /app
 WORKDIR /app
 
-COPY htu-devops-konsul-web/package.json  /app/package.json
+COPY htu-devops-konsul-web/package.json  /app/package.jsonnpm i fsevents
 #RUN npm install -g yarn
 RUN  apk add --update nodejs && apk add --update nodejs-npm
 
 COPY htu-devops-konsul-web /app
 #Run npm i sharp
 RUN npm install sharp
+RUN npm install -g yarn
 RUN npm i fsevents
 RUN npm install --build-from-source
 
