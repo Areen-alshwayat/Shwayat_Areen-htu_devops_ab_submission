@@ -9,6 +9,8 @@ RUN  apk add --update nodejs && apk add --update nodejs-npm
 
 COPY htu-devops-konsul-web /app
 #Run npm i sharp
+RUN npm cache clean — force && npm install
+rm -rf node_modules
 RUN npm install sharp
 RUN npm install -g yarn
 RUN npm i fsevents
