@@ -1,6 +1,5 @@
 ---
 
-
 ---
 
 <h2 id="upskilling-capstone-project">Upskilling CAPSTONE PROJECT</h2>
