@@ -5,16 +5,26 @@ WORKDIR /app
 
 COPY htu-devops-konsul-web/package.json  /app/package.json
 #RUN npm install -g yarn
-RUN  apk add --update nodejs && apk add --update nodejs-npm
-RUN apk update && apk add yarn python g++ make && rm -rf /var/cache/apk/*
+RUN npm install --global @gridsome/cli
 
+RUN apk add --update --no-cache postgresql-client
+RUN apk add --update --no-cache --virtual .tmp-build-deps
+RUN  apk add --update nodejs && apk add --update nodejs-npm
+
+RUN apk add --update bash && rm -rf /var/cache/apk/*
+RUN apk add --no-cache yarn --repository="http://dl-cdn.alpinelinux.org/alpine/edge/community"
+
+RUN yarn -v
 COPY htu-devops-konsul-web /app
-Run npm i sharp
+
+#RUN apk update && apk add yarn python g++ make && rm -rf /var/cache/apk/*
+
+#Run npm i sharp
 #RUN npm cache clean — force && npm install
 #RUN npm install sharp
-RUN npm install -g yarn
-RUN npm i fsevents
-RUN npm install --build-from-source
+#RUN npm install -g yarn
+#RUN npm i fsevents
+#RUN npm install --build-from-source
 
 RUN echo && ls && npm install --global @gridsome/cli
 RUN echo && ls && yarn && npm run build && ls
