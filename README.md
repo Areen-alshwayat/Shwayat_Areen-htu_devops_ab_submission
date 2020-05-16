@@ -66,6 +66,7 @@
 rancher/rancher:latest</p>
 </blockquote>
 <ol start="2">
-<li>Once Rancher is installed, open a web browser and point it to rancher domain <a href="%28https://51.116.179.221/%29">enter link description here</a></li>
+<li>Once Rancher is installed, open a web browser and point it to rancher domain <a href="%28https://51.116.179.221/%29">(https://51.116.179.221/)</a>  The following page displays:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Rancherpage.png" alt="enter image description here"></li>
 </ol>
 
