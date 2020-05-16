@@ -30,13 +30,19 @@
 <h2 id="write-dockerfile">Write Dockerfile</h2>
 <h4 id="to-use-a-container-youll-need-to-give-instructions-to-docker-via-a-file-called-dockerfile-in-the-root-of-project">To use a container, you’ll need to give instructions to Docker via a file called <code>Dockerfile</code> in the root of project</h4>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Dockerfile.png" alt="enter image description here"></p>
-<h2 id="building-the-container">Building the container</h2>
+<h2 id="building-image">Building Image</h2>
 <p>build the image, with a name, and optionally a tag</p>
 <pre><code># Build an image
  $docker build -t arshwayat/node:14-alpine  .
 </code></pre>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/build%20-arshwayat-node.png" alt="enter image description here"></p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/build-arshwayat-node%20-2.png" alt="enter image description here"></p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/build%20finished.png" alt="enter image description here"></p>
 <h2 id="run-the-container">Run the container</h2>
-<p>The image is created, so you can run a container based on it</p>
-<pre><code>$docker run -p 80:80 -p 443:443 -d node:14-alpine
+<p>create a container with this image using</p>
+<pre><code>docker run -p 80:80 -p 443:443 -d arshwayat/node:14-alpine 
 </code></pre>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/run%20image.png" alt="enter image description here"></p>
+<h2 id="push-image-into-docker-hub">Push image into docker hub</h2>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/push%20image.png" alt="enter image description here"></p>
 
