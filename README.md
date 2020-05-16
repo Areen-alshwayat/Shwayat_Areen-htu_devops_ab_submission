@@ -69,7 +69,22 @@ rancher/rancher:latest</p>
 <li>Once Rancher is installed, open a web browser and point it to rancher domain <a href="https://51.116.179.221/">https://51.116.179.221/</a>  The following page displays:<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Rancherpage.png" alt="enter image description here"></li>
 </ol>
-<p>3.<strong>Add Cluster</strong> to configure a new Kubernetes cluster.<br>
-4.The Rancher Dashboard displays:<br>
-<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Dashboard%20Rancher.png" alt="enter image description here"></p>
+<p>3.<strong>Add Cluster</strong> to configure a new Kubernetes cluster.</p>
+<h5 id="deploying-a-cluster-workload-">Deploying a Cluster Workload :</h5>
+<p>The cluster is ready now and the deployment of a first pod can take place.</p>
+<p>4.The Rancher Dashboard displays:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Deploy.png" alt="enter image description here"></p>
+<p>The clusters dashboard displays. Click on <strong>Deploy</strong>:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Deploy2-.png" alt="enter image description here"></p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Deploy%20workload%20%202.png" alt="enter image description here"></p>
+<blockquote>
+<p>Enter a the details of the workload:<br>
+<strong>Name</strong>: konsul app<br>
+<strong>Docker Image</strong>: Enter  <a href="https://hub.docker.com"><code>arshwayat/konsulweb-node</code></a><br>
+<strong>Add Port</strong>  to configure the port mapping<br>
+-   <strong>Publish the container port</strong>: Set the value to port  <code>80</code><br>
+-   <strong>Protocol</strong>: Set the value to  <code>TCP</code><br>
+-   <strong>As a</strong>: Set the Value to  <code>layer-4 load Balancer</code><br>
+-   <strong>Listening Port</strong>: Set the value to port  <code>80</code></p>
+</blockquote>
 
