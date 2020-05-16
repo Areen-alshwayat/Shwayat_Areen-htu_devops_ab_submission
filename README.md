@@ -4,10 +4,10 @@
 <p>Use the rancher:stable Docker image to deploy Rancher and Use the <strong>orchestrator</strong> to manage your architecture for this assignment. Deploy an <strong>AKS</strong> cluster with three worker nodes, and connect it for management using the orchestrator.</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
+<li><strong>Create a Dockerfile</strong> to run  Application</li>
 <li>Build a Docker image based on the current code, settings,  and environment</li>
 <li>Deploy the image to <strong>Docker Hub</strong></li>
 <li>Pull the image from <strong>Docker Hub</strong></li>
-<li><strong>Create a Dockerfile</strong> to run  Application</li>
 </ul>
 <h2 id="requirements-used-in-project">Requirements used in project</h2>
 <h2 id="install-dependencies-for-the-application.-to-do-so-we-need-to-issue----the-npm-install-command.">Install dependencies for the application. To do so, we need to issue    the <strong>npm install</strong> command.</h2>
