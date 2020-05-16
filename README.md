@@ -25,6 +25,8 @@
 <pre><code>$gridsome develop 
 </code></pre>
 <p>Run this command inside the project directory to start a local development server. The server will start at <code>http://localhost:8080/</code> with hot-reloading etc.</p>
+<h5 id="you-should-see-the-following-output">You should see the following output:</h5>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/gridsome.png" alt="enter image description here"></p>
 <h2 id="write-dockerfile">Write Dockerfile</h2>
 <h4 id="to-use-a-container-youll-need-to-give-instructions-to-docker-via-a-file-called-dockerfile-in-the-root-of-project">To use a container, you’ll need to give instructions to Docker via a file called <code>Dockerfile</code> in the root of project</h4>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Dockerfile.png" alt="enter image description here"></p>
