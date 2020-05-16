@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-# Konsul Website
-
-This repository holds the [Gridsome](https://gridsome.org) project for the Konsul group website.
-
-## Deployments
-
-* [Production](https://konsul.devops.htu/)
-* [Development](https://konsul.dev.devop.htu/)
-
-
-## Requirements
-
-1. Install Gridsome CLI tool if you don't have
-
-`npm install --global @gridsome/cli`
-
-## Running the Project for Local Development
-
-0. Clone this repository `git@github.com:geokhoury/htu-devops-konsul-web.git`
-1. `cd htu-devops-konsul-web` to open the folder
-2. `gridsome develop` to start a local dev server at `http://localhost:8080`
-3. Happy coding 🎉🙌
-
-## Building the Project
-
-### For Local Development
-
-### For Production
-
-Use `gridsome build` to build the project for production. The default output directory is `dist`.
-=======
----
-
----
-
 <h2 id="upskilling-capstone-project">Upskilling CAPSTONE PROJECT</h2>
 <p>This repository holds the Project and Dockerfile for the Konsul group website.</p>
 <h2 id="develop-and-deploy-a-container-based-architecture">Develop and Deploy a Container-Based Architecture</h2>
@@ -69,4 +33,4 @@ Use `gridsome build` to build the project for production. The default output dir
 <pre><code>$docker run -p 80:80 -p 443:443 -d node:14-alpine
 </code></pre>
 
->>>>>>> 5eaa46844e8c7c112db957900102a2f6cd1d38e5
+
