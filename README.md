@@ -54,4 +54,12 @@
 <p>Now to download this image, use:</p>
 <pre><code>docker pull arshwayat/konsulweb-node:latest
 </code></pre>
+<h3 id="continuous-delivery-with-rancher">Continuous delivery with Rancher</h3>
+<p>Rancher is a container management platform built for organizations that deploy containers in production. Rancher makes it easy to run  <code>kubernetes</code></p>
+<h6 id="launch-the-following-command-to-fetch-the-docker-image-rancherrancher-to-run-in-a-container-with-automatic-restarting-enabled-in-case-the-container-fails">Launch the following command to fetch the docker image <code>rancher/rancher</code> to run in a container with automatic restarting enabled in case the container fails:</h6>
+<blockquote>
+<p>docker run -d --restart=unless-stopped <br>
+-p 80:80 -p 443:443 <br>
+rancher/rancher:latest</p>
+</blockquote>
 
