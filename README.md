@@ -66,14 +66,20 @@
 rancher/rancher:latest</p>
 </blockquote>
 <ol start="2">
-<li>Once Rancher is installed, open a web browser and point it to rancher domain <a href="https://51.116.179.221/">https://51.116.179.221/</a>  The following page displays:<br>
-<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Rancherpage.png" alt="enter image description here"></li>
+<li>
+<p>Once Rancher is installed, open a web browser and point it to rancher domain <a href="https://51.116.179.221/">https://51.116.179.221/</a>  The following page displays:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Rancherpage.png" alt="enter image description here"></p>
+</li>
+<li>
+<p><strong>Add Cluster</strong> to configure a new Kubernetes cluster.</p>
+</li>
 </ol>
-<p>3.<strong>Add Cluster</strong> to configure a new Kubernetes cluster.</p>
 <h5 id="deploying-a-cluster-workload-">Deploying a Cluster Workload :</h5>
 <p>The cluster is ready now and the deployment of a first pod can take place.</p>
-<p>4.The Rancher Dashboard displays:<br>
-<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Deploy.png" alt="enter image description here"></p>
+<ol start="4">
+<li>The Rancher Dashboard displays:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Deploy.png" alt="enter image description here"></li>
+</ol>
 <p>The clusters dashboard displays. Click on <strong>Deploy</strong>:<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Deploy2-.png" alt="enter image description here"></p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Deploy%20workload%20%202.png" alt="enter image description here"></p>
@@ -87,4 +93,10 @@ rancher/rancher:latest</p>
 -   <strong>As a</strong>: Set the Value to  <code>layer-4 load Balancer</code><br>
 -   <strong>Listening Port</strong>: Set the value to port  <code>80</code></p>
 </blockquote>
+<p><strong>Launch</strong> to create the workload.</p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Ransher-project-konsul.png" alt="enter image description here"></p>
+<ol start="5">
+<li>Once deployed, open a web browser and point it to <a href="http://52.170.2.101/">http://52.170.2.101/</a>  The KONSUL application display :<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Konsul%20page%201.png" alt="enter image description here"></li>
+</ol>
 
