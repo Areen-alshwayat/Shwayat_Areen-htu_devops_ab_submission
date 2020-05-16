@@ -51,4 +51,7 @@
 <h3 id="automated-builds-with-dockerhub_continuous-integration">Automated Builds With DockerHub_Continuous Integration</h3>
 <p>Docker Hub can automatically build images ,that can trigger a build on DockerHub as soon as you commit a code  GitHub repository,image build is currently in queue,which will be scheduled eventually, and  image would be created. After that, anybody would be able to download the image.</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Automated%20Build.png" alt="enter image description here"></p>
+<p>Now to download this image, use:</p>
+<pre><code>docker pull arshwayat/konsulweb-node:latest
+</code></pre>
 
