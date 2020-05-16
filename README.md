@@ -44,5 +44,11 @@
 </code></pre>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/run%20image.png" alt="enter image description here"></p>
 <h2 id="push-image-into-docker-hub">Push image into docker hub</h2>
+<h6 id="push-your-image-to-the-repository-you-created">Push your image to the repository you created</h6>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/push%20image.png" alt="enter image description here"></p>
+<h5 id="created--repository.-you-should-see">created  repository. You should see:</h5>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/DockerHub-image.png" alt="enter image description here"></p>
+<h2 id="automated-builds-with-dockerhub">Automated Builds With DockerHub</h2>
+<h5 id="docker-hub-can-automatically-build-images">Docker Hub can automatically build images</h5>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Automated%20Build.png" alt="enter image description here"></p>
 
