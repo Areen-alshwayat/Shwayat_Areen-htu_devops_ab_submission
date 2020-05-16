@@ -49,6 +49,6 @@
 <h5 id="created--repository.-you-should-see">created  repository. You should see:</h5>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/DockerHub-image.png" alt="enter image description here"></p>
 <h2 id="automated-builds-with-dockerhub">Automated Builds With DockerHub</h2>
-<h5 id="docker-hub-can-automatically-build-images">Docker Hub can automatically build images</h5>
+<p>Docker Hub can automatically build images ,that can trigger a build on DockerHub as soon as you commit a code  GitHub repository,image build is currently in queue,which will be scheduled eventually, and  image would be created. After that, anybody would be able to download the image.</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Automated%20Build.png" alt="enter image description here"></p>
 
