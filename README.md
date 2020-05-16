@@ -66,6 +66,6 @@
 rancher/rancher:latest</p>
 </blockquote>
 <ol start="2">
-<li>Once Rancher is installed, open a web browser and point it to rancher domain <code>[https://51.116.179.221/](https://51.116.179.221/)</code></li>
+<li>Once Rancher is installed, open a web browser and point it to rancher domain <a href="%28https://51.116.179.221/%29">enter link description here</a></li>
 </ol>
 
