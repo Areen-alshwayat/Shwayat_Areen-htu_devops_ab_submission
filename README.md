@@ -69,4 +69,7 @@ rancher/rancher:latest</p>
 <li>Once Rancher is installed, open a web browser and point it to rancher domain <a href="https://51.116.179.221/">https://51.116.179.221/</a>  The following page displays:<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Rancherpage.png" alt="enter image description here"></li>
 </ol>
+<p>3.<strong>Add Cluster</strong> to configure a new Kubernetes cluster.<br>
+4.The Rancher Dashboard displays:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Dashboard%20Rancher.png" alt="enter image description here"></p>
 
