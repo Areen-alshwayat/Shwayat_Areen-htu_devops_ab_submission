@@ -169,4 +169,5 @@ open a web browser and point it to :<a href="http://40.76.212.96/">http://40.76.
 <p>user-name: <strong>user-DevOps</strong><br>
 password: <strong>HTUDEVOPS1234</strong></p>
 </blockquote>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/statping.png" alt="enter image description here"></p>
 
