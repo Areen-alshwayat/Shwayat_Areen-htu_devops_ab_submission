@@ -103,4 +103,5 @@ pass:HTUDevOps1234</li>
 </li>
 </ol>
 <p><a href="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/nextcloud_logo.png">enter link description here</a></p>
+<p><strong>Nextcloud</strong> is a suite of client-server software for creating and using file hosting services. <strong>Nextcloud</strong> is free and <code>open-source</code>, which means that anyone is allowed to install and operate it on their own private server devices.</p>
 
