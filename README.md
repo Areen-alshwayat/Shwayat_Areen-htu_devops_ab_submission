@@ -163,7 +163,7 @@ password: areenpasscloud<br>
 </ul>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/user_next_cloud.png" alt="enter image description here"></p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/add%20user-nextcloud.png" alt="enter image description here"></p>
-<p><strong>you can access  this by using user-name and password Ill give you as a user</strong>  :<br>
+<p><strong>you can access  this by using user-name and password I’ll give you as a user</strong>  :<br>
 open a web browser and point it to :<a href="http://40.76.212.96/">http://40.76.212.96/</a>:</p>
 <blockquote>
 <p>user-name: <strong>user-DevOps</strong><br>
