@@ -4,7 +4,14 @@
 ---
 
 <h1 id="upskilling-capstone-project">Upskilling CAPSTONE PROJECT</h1>
+<p>The Upskilling Program is a true community participation model created for a group of university graduates to develop our skills with soft and technical skills that will help us become more employable. In this program, we have taught courses in English and soft skills technical skills, and so we learned with the English language how to write a report, How to submit presentations, speak and communicate in English, how to write a CV, as well as with personal skills, we learned how to develop self and time management, how to communicate, writing and speaking skills, presentation skills Introductory, we also learned the skills to deploy software with confidence, agility and high reliability using modern practices such as Continuous Integration and Continuous Delivery, and tools such as GitHub, Docker, Kubernetes.</p>
+<p>Upskilling program keeps graduates knowledgeable on new processes. Encourage graduates to build a Personal Development Plan that includes competencies that they want to improve upon and the skills they want to gain. Empowering graduates to come up with their own plan is key to the success of the upskilling training program. graduates can identify new skills and competencies that resonate with them as opposed to being told what they need to learn.while also preparing them for their future careers.</p>
+<p>Capstone project is a multifaceted assignment that serves as a culminating academic and intellectual experience for students. Are generally designed to encourage students to think critically, solve challenging problems, and develop skills such as oral communication, public speaking, research skills, media literacy, teamwork, planning, self-sufficiency, or goal setting—i.e., skills that will help prepare them for modern careers.</p>
 <p>This repository holds the Project and Dockerfile for the Konsul group website, Nextcloud and Statping server.</p>
+<h2 id="project-scope">PROJECT SCOPE</h2>
+<p>DevOps is the practice of combining the philosophies and tools of software development (Dev) and software operation (Ops). DevOps can largely be thought of as a software development methodology, similar to other techniques like the Agile model,which aims to shorten the systems development life cycle and provide continuous delivery with high software quality. Companies like Konsul group that incorporate DevOps practices get more done, plain and simple. With a single team composed of cross-functional members all working in collaboration, DevOps organizations can deliver with maximum speed, functionality, and innovation.A DevOps Engineer will work with IT developers to facilitate better coordination among operations, development, and testing functions by automating and streamlining the integration and deployment processes.</p>
+<h2 id="this-report">This Report</h2>
+<p>This report for technical Track (DevOps And Linux) and depends on what I learned in this course about Basic of Container Operations with Docker, how Creating the Learning Environment, using Docker to Simplify CI pipelines among other examples. In this project as per as request of Kunsol group as a DevOps engineer required to develop and deploy a container-based architecture with multiple internal projects,required to build an automated Docker CI pipeline for this project.And Deploy the website on AKS cluster using orchestration</p>
 <h2 id="develop-and-deploy-a-container-based-architecture">Develop and Deploy a Container-Based Architecture</h2>
 <p>Use the rancher:stable Docker image to deploy Rancher and Use the <strong>orchestrator</strong> to manage your architecture for this assignment. Deploy an <strong>AKS</strong> cluster with three worker nodes, and connect it for management using the orchestrator.</p>
 <h2 id="prerequisites">Prerequisites</h2>
@@ -14,7 +21,7 @@
 <li>Pull the image from <strong>Docker Hub</strong></li>
 <li><strong>Create a Dockerfile</strong> to run  Application</li>
 </ul>
-<h2 id="requirements-used-in-project">Requirements used in project</h2>
+<h2 id="requirements-used-in-project--konsul-website">Requirements used in project -Konsul Website</h2>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/gridsome.5f1e492.84c31b5aa637ba233d541ca607214f89.jpg" alt="enter image description here"></p>
 <h3 id="install-dependencies-for-the-application.-to-do-so-we-need-to-issue----the-npm-install-command.">Install dependencies for the application. To do so, we need to issue    the <strong>npm install</strong> command.</h3>
 <pre><code>$sudo apt install npm
