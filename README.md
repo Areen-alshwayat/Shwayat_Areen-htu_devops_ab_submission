@@ -115,13 +115,19 @@ pass:HTUDevOps1234</li>
 <blockquote>
 <h2 id="auto-configuration-via-environment-variables">Auto configuration via environment variables</h2>
 </blockquote>
-<p>To enable auto configuration, set database connection via the following environment variable,I used <strong>PostgreSQL</strong>:</p>
+<p>-To enable auto configuration, set database connection via the<br>
+following environment variable,I used <strong>PostgreSQL</strong>:</p>
 <ul>
 <li><code>POSTGRES_DB</code>  Name of the database using postgres.</li>
 <li><code>POSTGRES_USER</code>  Username for the database using postgres.</li>
 <li><code>POSTGRES_PASSWORD</code>  Password for the database user using postgres.</li>
 </ul>
-<p><strong>Click</strong>  Deploy button from Dashboard <strong>Rancher</strong> screen  to open workload and fill the blank to setup the database information like this :<br>
+<p>-<strong>Click</strong>  Deploy button from Dashboard <strong>Rancher</strong> screen  to open workload for postgres_database and named by:<br>
+<strong>postgresql-db</strong>  and fill the blank to setup the database information like this :<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/postgreworkload.png" alt="enter image description here"></p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/envpostgre.png" alt="enter image description here"></p>
+<p>Then create the nextcloud workload  to setup container <strong>Nextcloud</strong> with port mapping info and  by set these varibales showing here:</p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/next_cloud_image.png" alt="enter image description here"></p>
+<p>-can additionally configure <strong>Nextcloud</strong> instance by setting <strong>admin user</strong> and <strong>password</strong> <code>only works if you set both</code>:</p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/env_next_cloud.png" alt="enter image description here"></p>
 
