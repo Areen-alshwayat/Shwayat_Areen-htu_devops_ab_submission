@@ -169,5 +169,16 @@ open a web browser and point it to :<a href="http://40.76.212.96/">http://40.76.
 <p>user-name: <strong>user-DevOps</strong><br>
 password: <strong>HTUDEVOPS1234</strong></p>
 </blockquote>
+<h2 id="section-1"></h2>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/statping.png" alt="enter image description here"></p>
+<h2 id="statping---status-page--monitoring-server">Statping - Status Page &amp; Monitoring Server</h2>
+<p><strong>statping</strong> is a server monitoring application that includes a status page server. <strong>Statping</strong> will automatically fetch the application and render a beautiful status page with tons of features for you to build an even better status page.</p>
+<blockquote>
+<h2 id="setup-statping-server">setup statping server</h2>
+</blockquote>
+<p>–Click <strong>Deploy</strong> button from <strong>Dashboard Rancher</strong> screen to open workload for deploy <strong>statping</strong> and named to <code>statping</code></p>
+<blockquote>
+<p>And fill the blank to setup the <strong>statping</strong>  information like this:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/statping%20workload%20_deploy.png" alt="enter image description here"></p>
+</blockquote>
 
