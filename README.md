@@ -149,6 +149,18 @@ user-name: areen<br>
 password: areenpasscloud<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/login_next_cloud.png" alt="enter image description here"></p>
 </blockquote>
-<p>After enter these inforamtion,you willl get this page look at this:</p>
+<p>After enter these inforamtion,you willl get <strong>Nextcloud Web UI</strong> look at this:</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/page_next_cloud.png" alt="enter image description here"></p>
+<blockquote>
+<p>On the <strong>User management page</strong> of your Nextcloud Web UI you can:</p>
+</blockquote>
+<h4 id="create-new-user">Create new user</h4>
+<p>To create a user account:</p>
+<ul>
+<li>Enter the new user’s  <strong>Login Name</strong>  and their initial  <strong>Password</strong></li>
+<li>Optionally, assign  <strong>Groups</strong>  memberships</li>
+<li>Click the  <strong>Create</strong>  button</li>
+</ul>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/user_next_cloud.png" alt="enter image description here"></p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/add%20user-nextcloud.png" alt="enter image description here"></p>
 
