@@ -123,5 +123,5 @@ pass:HTUDevOps1234</li>
 </ul>
 <p><strong>Click</strong>  Deploy button from Dashboard <strong>Rancher</strong> screen  to open workload and fill the blank to setup the database information like this :<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/postgreworkload.png" alt="enter image description here"></p>
-<p><a href="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/envpostgre.png">enter link description here</a></p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/envpostgre.png" alt="enter image description here"></p>
 
