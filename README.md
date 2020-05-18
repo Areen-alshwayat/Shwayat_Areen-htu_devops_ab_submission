@@ -3,11 +3,11 @@
 
 ---
 
-<h2 id="upskilling-capstone-project">Upskilling CAPSTONE PROJECT</h2>
+<h1 id="upskilling-capstone-project">Upskilling CAPSTONE PROJECT</h1>
 <p>This repository holds the Project and Dockerfile for the Konsul group website.</p>
-<h3 id="develop-and-deploy-a-container-based-architecture">Develop and Deploy a Container-Based Architecture</h3>
+<h2 id="develop-and-deploy-a-container-based-architecture">Develop and Deploy a Container-Based Architecture</h2>
 <p>Use the rancher:stable Docker image to deploy Rancher and Use the <strong>orchestrator</strong> to manage your architecture for this assignment. Deploy an <strong>AKS</strong> cluster with three worker nodes, and connect it for management using the orchestrator.</p>
-<h3 id="prerequisites">Prerequisites</h3>
+<h2 id="prerequisites">Prerequisites</h2>
 <ul>
 <li>Build a Docker image based on the current code, settings,  and environment</li>
 <li>Deploy the image to <strong>Docker Hub</strong></li>
@@ -16,7 +16,7 @@
 </ul>
 <h3 id="requirements-used-in-project">Requirements used in project</h3>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/gridsome.5f1e492.84c31b5aa637ba233d541ca607214f89.jpg" alt="enter image description here"></p>
-<h5 id="install-dependencies-for-the-application.-to-do-so-we-need-to-issue----the-npm-install-command.">Install dependencies for the application. To do so, we need to issue    the <strong>npm install</strong> command.</h5>
+<h3 id="install-dependencies-for-the-application.-to-do-so-we-need-to-issue----the-npm-install-command.">Install dependencies for the application. To do so, we need to issue    the <strong>npm install</strong> command.</h3>
 <pre><code>$sudo apt install npm
 </code></pre>
 <h3 id="install-gridsome-cli-globally">Install Gridsome CLI globally</h3>
