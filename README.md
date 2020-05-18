@@ -199,9 +199,11 @@ password: <strong>HTUDEVOPS1234</strong></p>
 <p>–<strong>Click</strong> 0n the tab <strong>services</strong>  to create once to monitor,look at this :</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/sevices-stat.png" alt="enter image description here"></p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/creat%20stat.png" alt="enter image description here"></p>
+<p>– Then you can fill the following <strong>services inforamtion</strong> to server you want to <strong>monitor</strong> for example for <strong>Nextcloud</strong> server look at this</p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/service%20info.png" alt="enter image description here"></p>
+<p>– After that you can get a statping sample Data for Nextcloud server.Look at this :</p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/statping%20sample%20data-1.png" alt="enter image description here"></p>
 <blockquote>
 <p><strong>Statping</strong> strives to remain future-proof and remain intact if a failure is created. If server crashes your Status Page should still  remaining <strong>online</strong> to notify your users of downtime.</p>
 </blockquote>
-<p>– Then you can fill the following <strong>services inforamtion</strong> to server you want to <strong>monitor</strong> look at this :</p>
-<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/service%20info.png" alt="enter image description here"></p>
 
