@@ -102,7 +102,7 @@ pass:HTUDevOps1234</li>
 <h2 id="nextcloud-_-deployment-with-rancher">Nextcloud _ Deployment with Rancher</h2>
 </li>
 </ol>
-<p><a href="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/nextcloud_logo.png">enter link description here</a></p>
+<p><img src="%5Benter%20link%20description%20here%5D%28https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/nextcloud_logo.png%29" alt="enter image description here"></p>
 <p><strong>Nextcloud</strong> is a suite of client-server software for creating and using file hosting services. <strong>Nextcloud</strong> is free and <code>open-source</code>, which means that anyone is allowed to install and operate it on their own private server devices.</p>
 <blockquote>
 <h2 id="architecture_nextcloud">Architecture_Nextcloud</h2>
