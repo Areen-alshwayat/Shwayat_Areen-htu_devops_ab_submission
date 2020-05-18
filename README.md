@@ -4,7 +4,7 @@
 ---
 
 <h1 id="upskilling-capstone-project">Upskilling CAPSTONE PROJECT</h1>
-<p>This repository holds the Project and Dockerfile for the Konsul group website.</p>
+<p>This repository holds the Project and Dockerfile for the Konsul group website, Nextcloud and Statping server.</p>
 <h2 id="develop-and-deploy-a-container-based-architecture">Develop and Deploy a Container-Based Architecture</h2>
 <p>Use the rancher:stable Docker image to deploy Rancher and Use the <strong>orchestrator</strong> to manage your architecture for this assignment. Deploy an <strong>AKS</strong> cluster with three worker nodes, and connect it for management using the orchestrator.</p>
 <h2 id="prerequisites">Prerequisites</h2>
