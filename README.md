@@ -206,4 +206,5 @@ password: <strong>HTUDEVOPS1234</strong></p>
 <blockquote>
 <p><strong>Statping</strong> strives to remain future-proof and remain intact if a failure is created. If server crashes your Status Page should still  remaining <strong>online</strong> to notify your users of downtime.</p>
 </blockquote>
+<h2 id="section-2"></h2>
 
