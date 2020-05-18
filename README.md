@@ -99,7 +99,7 @@ pass:HTUDevOps1234</li>
 <li>
 <p>Once deployed, open a web browser and point it to <a href="http://52.170.2.101/">http://52.170.2.101/</a>  The KONSUL website display :<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Konsul%20page%201.png" alt="enter image description here"></p>
-<h2 id="nextcloud-_-deployment">Nextcloud _ Deployment</h2>
+<h2 id="nextcloud-_-deployment-with-rancher">Nextcloud _ Deployment with Rancher</h2>
 </li>
 </ol>
 <p><a href="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/nextcloud_logo.png">enter link description here</a></p>
@@ -115,5 +115,13 @@ pass:HTUDevOps1234</li>
 <blockquote>
 <h2 id="auto-configuration-via-environment-variables">Auto configuration via environment variables</h2>
 </blockquote>
-<p>To enable auto configuration, set database connection via the following environment variable,I used <strong>PostgreSQL</strong></p>
+<p>To enable auto configuration, set database connection via the following environment variable,I used <strong>PostgreSQL</strong>:</p>
+<ul>
+<li><code>POSTGRES_DB</code>  Name of the database using postgres.</li>
+<li><code>POSTGRES_USER</code>  Username for the database using postgres.</li>
+<li><code>POSTGRES_PASSWORD</code>  Password for the database user using postgres.</li>
+</ul>
+<p><strong>Click</strong>  Deploy button from Dashboard <strong>Rancher</strong> screen  to open workload and fill the blank to setup the database information like this :<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/postgreworkload.png" alt="enter image description here"></p>
+<p><a href="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/envpostgre.png">enter link description here</a></p>
 
