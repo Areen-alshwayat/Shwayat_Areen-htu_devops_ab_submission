@@ -15,6 +15,7 @@
 <li><strong>Create a Dockerfile</strong> to run  Application</li>
 </ul>
 <h3 id="requirements-used-in-project">Requirements used in project</h3>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/gridsome.5f1e492.84c31b5aa637ba233d541ca607214f89.jpg" alt="enter image description here"></p>
 <h5 id="install-dependencies-for-the-application.-to-do-so-we-need-to-issue----the-npm-install-command.">Install dependencies for the application. To do so, we need to issue    the <strong>npm install</strong> command.</h5>
 <pre><code>$sudo apt install npm
 </code></pre>
