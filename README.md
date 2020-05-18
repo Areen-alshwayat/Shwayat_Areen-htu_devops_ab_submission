@@ -181,4 +181,6 @@ password: <strong>HTUDEVOPS1234</strong></p>
 <p>And fill the blank to setup the <strong>statping</strong>  information like this:<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/statping%20workload%20_deploy.png" alt="enter image description here"></p>
 </blockquote>
+<p>–Then create the <strong>statping</strong> workload to setup container <strong>statping</strong> with <strong>port mapping</strong>  <code>which enables access to the service inside and outside of the cluster</code> and by set these varibales showing here:<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/env_statping.png" alt="enter image description here"></p>
 
