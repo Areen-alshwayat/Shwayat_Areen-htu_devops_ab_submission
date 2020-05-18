@@ -188,6 +188,6 @@ password: <strong>HTUDEVOPS1234</strong></p>
 <blockquote>
 <p><strong>Launch</strong>  to deploy the <strong>statping</strong> workload.</p>
 </blockquote>
-<p>–Once deployed, open a web browser on <a href="http://40.112.50.146/">http://40.112.50.146/</a> and point it to the <strong>statping</strong>  website display :<br>
+<p>–<strong>Once deployed</strong>, open a web browser on <a href="http://40.112.50.146/">http://40.112.50.146/</a> and point it to the <strong>statping</strong>  website display :<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/statping%20sample%20data.png" alt="enter image description here"></p>
 
