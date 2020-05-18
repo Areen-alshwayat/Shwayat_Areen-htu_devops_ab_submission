@@ -66,13 +66,13 @@
 rancher/rancher:latest</p>
 </blockquote>
 <ol start="2">
-<li>
-<p>Once Rancher is installed, open a web browser and point it to rancher domain <a href="https://51.116.179.221/">https://51.116.179.221/</a>  The following page displays:<br>
-<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Rancherpage.png" alt="enter image description here"></p>
-</li>
-<li>
-<p><strong>Add Cluster</strong> to configure a new Kubernetes cluster.</p>
-</li>
+<li>Once Rancher is installed, open a web browser and point it to rancher domain <a href="https://51.116.179.221/">https://51.116.179.221/</a>  The following page displays:<br>
+user-name:admin<br>
+pass:HTUDevOps1234</li>
+</ol>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Rancherpage.png" alt="enter image description here"></p>
+<ol start="3">
+<li><strong>Add Cluster</strong> to configure a new Kubernetes cluster.</li>
 </ol>
 <h5 id="deploying-a-cluster-workload-">Deploying a Cluster Workload :</h5>
 <p>The cluster is ready now and the deployment of a first pod can take place.</p>
@@ -96,7 +96,7 @@ rancher/rancher:latest</p>
 <p><strong>Launch</strong> to create the workload.</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Ransher-project-konsul.png" alt="enter image description here"></p>
 <ol start="5">
-<li>Once deployed, open a web browser and point it to <a href="http://52.170.2.101/">http://52.170.2.101/</a>  The KONSUL application display :<br>
+<li>Once deployed, open a web browser and point it to <a href="http://52.170.2.101/">http://52.170.2.101/</a>  The KONSUL website display :<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Konsul%20page%201.png" alt="enter image description here"></li>
 </ol>
 
