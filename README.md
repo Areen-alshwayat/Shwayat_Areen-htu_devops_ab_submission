@@ -126,7 +126,7 @@ following environment variable,I used <strong>PostgreSQL</strong>:</p>
 <strong>postgresql-db</strong>  and fill the blank to setup the database information like this :<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/postgreworkload.png" alt="enter image description here"></p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/envpostgre.png" alt="enter image description here"></p>
-<p>-Then create the nextcloud workload  to setup container <strong>Nextcloud</strong> with port mapping info and  by set these varibales showing here:</p>
+<p>-Then create the nextcloud workload  to setup container <strong>Nextcloud</strong> with <strong>port mapping</strong>  <code>which enables access to the service inside and outside of the cluster</code>  and  by set these varibales showing here:</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/next_cloud_image.png" alt="enter image description here"></p>
 <p>-can additionally configure <strong>Nextcloud</strong> instance by setting <strong>admin user</strong> and <strong>password</strong> <code>only works if you set both</code>:</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/env_next_cloud.png" alt="enter image description here"></p>
@@ -141,4 +141,12 @@ following environment variable,I used <strong>PostgreSQL</strong>:</p>
 <p>so in this container used volumes in this container, look at this :</p>
 </blockquote>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/vol_next_cloud.png" alt="enter image description here"></p>
+<p>Finally, the workload is deployed You can view the workload’s status from the project’s <strong>Workloads</strong> view:</p>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/activ_next_cloud.png" alt="enter image description here"></p>
+<blockquote>
+<p>open a web browser and point it to :<a href="http://40.76.212.96/">http://40.76.212.96/</a>:<br>
+user-name: areen<br>
+password: areenpasscloud<br>
+<img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/login_next_cloud.png" alt="enter image description here"></p>
+</blockquote>
 
