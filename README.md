@@ -99,9 +99,21 @@ pass:HTUDevOps1234</li>
 <li>
 <p>Once deployed, open a web browser and point it to <a href="http://52.170.2.101/">http://52.170.2.101/</a>  The KONSUL website display :<br>
 <img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Konsul%20page%201.png" alt="enter image description here"></p>
-<h2 id="nextcloud-_-deployment">NextCloud _ Deployment</h2>
+<h2 id="nextcloud-_-deployment">Nextcloud _ Deployment</h2>
 </li>
 </ol>
 <p><a href="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/nextcloud_logo.png">enter link description here</a></p>
 <p><strong>Nextcloud</strong> is a suite of client-server software for creating and using file hosting services. <strong>Nextcloud</strong> is free and <code>open-source</code>, which means that anyone is allowed to install and operate it on their own private server devices.</p>
+<blockquote>
+<h2 id="architecture_nextcloud">Architecture_Nextcloud</h2>
+</blockquote>
+<p><strong>Nextcloud</strong> is designed to work with several database management systems, including <code>SQLite, MariaDB, MySQL, Oracle Database, and PostgreSQL</code></p>
+<blockquote>
+<h2 id="nextcloud-setup">Nextcloud setup</h2>
+</blockquote>
+<p><strong>Nextcloud</strong>  is designed to work with several database management systems, including <code>SQLite, MariaDB, MySQL, Oracle Database, and PostgreSQL</code></p>
+<blockquote>
+<h2 id="auto-configuration-via-environment-variables">Auto configuration via environment variables</h2>
+</blockquote>
+<p>To enable auto configuration, set database connection via the following environment variable,I used <strong>PostgreSQL</strong></p>
 
