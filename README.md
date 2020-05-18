@@ -137,6 +137,8 @@ following environment variable,I used <strong>PostgreSQL</strong>:</p>
 <li>When you want to store your container’s data on a remote host or a cloud provider, rather than locally.</li>
 <li>When you need to back up, restore, or migrate data from one Docker host to another, volumes are a better choice.</li>
 </ul>
+<blockquote>
 <p>so in this container used volumes in this container, look at this :</p>
+</blockquote>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/vol_next_cloud.png" alt="enter image description here"></p>
 
