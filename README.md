@@ -3,7 +3,7 @@
 
 ---
 
-<h1 id="upskilling-capstone-project">Upskilling CAPSTONE PROJECT</h1>
+<h1 id="upskilling-capstone-project-konsul-group">Upskilling CAPSTONE PROJECT-Konsul Group</h1>
 <p>The Upskilling Program is a true community participation model created for a group of university graduates to develop our skills with soft and technical skills that will help us become more employable. In this program, we have taught courses in English and soft skills technical skills, and so we learned with the English language how to write a report, How to submit presentations, speak and communicate in English, how to write a CV, as well as with personal skills, we learned how to develop self and time management, how to communicate, writing and speaking skills, presentation skills Introductory, we also learned the skills to deploy software with confidence, agility and high reliability using modern practices such as Continuous Integration and Continuous Delivery, and tools such as GitHub, Docker, Kubernetes.</p>
 <p>Upskilling program keeps graduates knowledgeable on new processes. Encourage graduates to build a Personal Development Plan that includes competencies that they want to improve upon and the skills they want to gain. Empowering graduates to come up with their own plan is key to the success of the upskilling training program. graduates can identify new skills and competencies that resonate with them as opposed to being told what they need to learn.while also preparing them for their future careers.</p>
 <p>Capstone project is a multifaceted assignment that serves as a culminating academic and intellectual experience for students. Are generally designed to encourage students to think critically, solve challenging problems, and develop skills such as oral communication, public speaking, research skills, media literacy, teamwork, planning, self-sufficiency, or goal setting—i.e., skills that will help prepare them for modern careers.</p>
@@ -217,4 +217,5 @@ password: <strong>HTUDEVOPS1234</strong></p>
 <p><strong>Statping</strong> strives to remain future-proof and remain intact if a failure is created. If server crashes your Status Page should still  remaining <strong>online</strong> to notify your users of downtime.</p>
 </blockquote>
 <h2 id="section-3"></h2>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/HTU.png" alt="enter image description here"></p>
 
