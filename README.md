@@ -48,6 +48,8 @@
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/push%20image.png" alt="enter image description here"></p>
 <h6 id="created--repository.-you-should-see">created  repository. You should see:</h6>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/DockerHub-image.png" alt="enter image description here"></p>
+<h1 id="section"></h1>
+<p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/GitHubwithdocker.png" alt="enter image description here"></p>
 <h2 id="automated-builds-with-dockerhub_continuous-integration">Automated Builds With DockerHub_Continuous Integration</h2>
 <p>Docker Hub can automatically build images ,that can trigger a build on DockerHub as soon as you commit a code  GitHub repository,image build is currently in queue,which will be scheduled eventually, and  image would be created. After that, anybody would be able to download the image.</p>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/Automated%20Build.png" alt="enter image description here"></p>
@@ -56,7 +58,7 @@
 </code></pre>
 <h2 id="continuous-delivery-with-rancher">Continuous delivery with Rancher</h2>
 <p>Rancher is a container management platform built for organizations that deploy containers in production. Rancher makes it easy to run  <code>kubernetes</code></p>
-<h6 id="section"></h6>
+<h6 id="section-1"></h6>
 <ol>
 <li>Launch the following command to fetch the docker image <code>rancher/rancher</code> to run in a container with automatic restarting enabled in case the container fails:</li>
 </ol>
@@ -169,7 +171,7 @@ open a web browser and point it to :<a href="http://40.76.212.96/">http://40.76.
 <p>user-name: <strong>user-DevOps</strong><br>
 password: <strong>HTUDEVOPS1234</strong></p>
 </blockquote>
-<h2 id="section-1"></h2>
+<h2 id="section-2"></h2>
 <p><img src="https://github.com/Areen-alshwayat/Shwayat_Areen-htu_devops_ab_submission/blob/master/statping.png" alt="enter image description here"></p>
 <h2 id="statping---status-page--monitoring-server">Statping - Status Page &amp; Monitoring Server</h2>
 <p><strong>statping</strong> is a server monitoring application that includes a status page server. <strong>Statping</strong> will automatically fetch the application and render a beautiful status page with tons of features for you to build an even better status page.</p>
@@ -206,5 +208,5 @@ password: <strong>HTUDEVOPS1234</strong></p>
 <blockquote>
 <p><strong>Statping</strong> strives to remain future-proof and remain intact if a failure is created. If server crashes your Status Page should still  remaining <strong>online</strong> to notify your users of downtime.</p>
 </blockquote>
-<h2 id="section-2"></h2>
+<h2 id="section-3"></h2>
 
